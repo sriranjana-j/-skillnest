@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Interview Completed</h2>
+<h3>Your Score: {{score}} / {{max_score}}</h3>
+
+{% if question_feedback %}
+<div class="glass">
+  <h3>Question-Wise Summary</h3>
+  <ul>
+    {% for item in question_feedback %}
+      <li>
+        <b>Q{{ forloop.counter }} - {{ item.quality }} (Score: {{ item.score }})</b><br>
+        <b>Strengths:</b>
+        {% if item.strengths %}
+          {{ item.strengths|join:", " }}
+        {% else %}
+          Not enough evidence.
+        {% endif %}
+        <br>
+        <b>Improvements:</b>
+        {% if item.improvements %}
+          {{ item.improvements|join:", " }}
+        {% else %}
+          No major issue found.
+        {% endif %}
+        <br>
+        <b>Suggestion:</b> {{ item.suggestion }}<br>
+        {% if item.improved_sample_answer %}
+          <b>Improved Sample:</b> {{ item.improved_sample_answer }}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+{% if overall_summary %}
+<div class="glass">
+  <h3>Overall Performance Summary</h3>
+  <p>{{ overall_summary }}</p>
+</div>
+{% endif %}
+
+<h3>Improvements:</h3>
+<ul>
+  {% if improvements %}
+    {% for i in improvements %}
+      <li>{{ i }}</li>
+    {% endfor %}
+  {% else %}
+    <li>No major improvements needed. Good performance!</li>
+  {% endif %}
+</ul>
+
+
+<a class="btn" href="/download-interview-report">📄 Download Report</a>
+<a class="btn" href="/interview?reset=1">🔄 Start Again</a>
+<a class="btn" href="/dashboard">🏠 Dashboard</a>
+{% endblock %}

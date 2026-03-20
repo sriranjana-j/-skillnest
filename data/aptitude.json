@@ -1,0 +1,1814 @@
+[
+  {
+    "id": 1,
+    "question": "If CP = 200 and SP = 250, find the profit percentage?",
+    "options": [
+      "20%",
+      "25%",
+      "10%",
+      "15%"
+    ],
+    "answer": "25%",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 2,
+    "question": "A father is 40 and son is 10. After how many years will father be twice the son's age?",
+    "options": [
+      "10",
+      "5",
+      "15",
+      "20"
+    ],
+    "answer": "10",
+    "keyword": "ages"
+  },
+  {
+    "id": 3,
+    "question": "Marked price is 500, discount 10%. Selling price?",
+    "options": [
+      "450",
+      "400",
+      "350",
+      "480"
+    ],
+    "answer": "450",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 4,
+    "question": "3 workers finish job in 12 days. 6 workers will take?",
+    "options": [
+      "6 days",
+      "3 days",
+      "12 days",
+      "9 days"
+    ],
+    "answer": "6 days",
+    "keyword": "time-work"
+  },
+  {
+    "id": 5,
+    "question": "45% of 200 = ?",
+    "options": [
+      "90",
+      "80",
+      "100",
+      "120"
+    ],
+    "answer": "90",
+    "keyword": "percentage"
+  },
+  {
+    "id": 6,
+    "question": "10 km in 2 hr = ? speed",
+    "options": [
+      "5 km/hr",
+      "10 km/hr",
+      "4 km/hr",
+      "8 km/hr"
+    ],
+    "answer": "5 km/hr",
+    "keyword": "speed-time-distance"
+  },
+  {
+    "id": 7,
+    "question": "Difference between SI and CI increases when?",
+    "options": [
+      "Time increases",
+      "Rate decreases",
+      "Principal decreases",
+      "None"
+    ],
+    "answer": "Time increases",
+    "keyword": "simple-interest"
+  },
+  {
+    "id": 8,
+    "question": "If SP = CP, then?",
+    "options": [
+      "No profit, no loss",
+      "Profit",
+      "Loss",
+      "None"
+    ],
+    "answer": "No profit, no loss",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 9,
+    "question": "Average of 2,4,6,8,10",
+    "options": [
+      "6",
+      "4",
+      "5",
+      "7"
+    ],
+    "answer": "6",
+    "keyword": "average"
+  },
+  {
+    "id": 10,
+    "question": "3/4 of 16 = ?",
+    "options": [
+      "12",
+      "9",
+      "8",
+      "10"
+    ],
+    "answer": "12",
+    "keyword": "fraction"
+  },
+  {
+    "id": 11,
+    "question": "Boys : Girls = 3:2, boys %?",
+    "options": [
+      "60%",
+      "40%",
+      "70%",
+      "50%"
+    ],
+    "answer": "60%",
+    "keyword": "ratio"
+  },
+  {
+    "id": 12,
+    "question": "LCM of 4 & 6",
+    "options": [
+      "12",
+      "8",
+      "24",
+      "6"
+    ],
+    "answer": "12",
+    "keyword": "lcm-hcf"
+  },
+  {
+    "id": 13,
+    "question": "HCF of 18 & 24",
+    "options": [
+      "6",
+      "12",
+      "3",
+      "9"
+    ],
+    "answer": "6",
+    "keyword": "lcm-hcf"
+  },
+  {
+    "id": 14,
+    "question": "15% of 300",
+    "options": [
+      "45",
+      "50",
+      "55",
+      "60"
+    ],
+    "answer": "45",
+    "keyword": "percentage"
+  },
+  {
+    "id": 15,
+    "question": "54 km/hr = ? m/s",
+    "options": [
+      "15",
+      "18",
+      "21",
+      "10"
+    ],
+    "answer": "15",
+    "keyword": "speed-time-distance"
+  },
+  {
+    "id": 16,
+    "question": "Boat goes faster downstream because?",
+    "options": [
+      "With current",
+      "Against current",
+      "Wind",
+      "None"
+    ],
+    "answer": "With current",
+    "keyword": "boats-stream"
+  },
+  {
+    "id": 17,
+    "question": "Probability of head in coin toss",
+    "options": [
+      "1/2",
+      "1/3",
+      "1",
+      "1/4"
+    ],
+    "answer": "1/2",
+    "keyword": "probability"
+  },
+  {
+    "id": 18,
+    "question": "\u00e2\u02c6\u0161144 = ?",
+    "options": [
+      "12",
+      "10",
+      "14",
+      "18"
+    ],
+    "answer": "12",
+    "keyword": "number-system"
+  },
+  {
+    "id": 19,
+    "question": "\u00e2\u02c6\u203a27 = ?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "3",
+    "keyword": "number-system"
+  },
+  {
+    "id": 20,
+    "question": "Prime number?",
+    "options": [
+      "7",
+      "9",
+      "21",
+      "1"
+    ],
+    "answer": "7",
+    "keyword": "number-system"
+  },
+  {
+    "id": 21,
+    "question": "CP = 500, sold at 10% loss. SP?",
+    "options": [
+      "450",
+      "550",
+      "400",
+      "480"
+    ],
+    "answer": "450",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 22,
+    "question": "Percentage formula?",
+    "options": [
+      "(Part/Whole)*100",
+      "Whole/Part",
+      "Part*Whole",
+      "None"
+    ],
+    "answer": "(Part/Whole)*100",
+    "keyword": "percentage"
+  },
+  {
+    "id": 23,
+    "question": "Train 200m crosses pole in 20s. Speed?",
+    "options": [
+      "10 m/s",
+      "15 m/s",
+      "20 m/s",
+      "8 m/s"
+    ],
+    "answer": "10 m/s",
+    "keyword": "speed-time-distance"
+  },
+  {
+    "id": 24,
+    "question": "Area of square side 5m?",
+    "options": [
+      "25",
+      "10",
+      "20",
+      "15"
+    ],
+    "answer": "25",
+    "keyword": "mensuration"
+  },
+  {
+    "id": 25,
+    "question": "Time = Distance / ___?",
+    "options": [
+      "Speed",
+      "Mass",
+      "Volume",
+      "Height"
+    ],
+    "answer": "Speed",
+    "keyword": "speed-time-distance"
+  },
+  {
+    "id": 26,
+    "question": "Simplify ratio 10:20",
+    "options": [
+      "1:2",
+      "2:1",
+      "3:2",
+      "5:2"
+    ],
+    "answer": "1:2",
+    "keyword": "ratio"
+  },
+  {
+    "id": 27,
+    "question": "Profit = ?",
+    "options": [
+      "SP - CP",
+      "CP - SP",
+      "SP*CP",
+      "None"
+    ],
+    "answer": "SP - CP",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 28,
+    "question": "Divisible by 9?",
+    "options": [
+      "81",
+      "75",
+      "62",
+      "53"
+    ],
+    "answer": "81",
+    "keyword": "number-system"
+  },
+  {
+    "id": 29,
+    "question": "Selling at CP results in?",
+    "options": [
+      "No profit no loss",
+      "Profit",
+      "Loss",
+      "Zero CP"
+    ],
+    "answer": "No profit no loss",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 30,
+    "question": "2/5 + 3/10 = ?",
+    "options": [
+      "7/10",
+      "5/10",
+      "1/5",
+      "3/5"
+    ],
+    "answer": "7/10",
+    "keyword": "fraction"
+  },
+  {
+    "id": 31,
+    "question": "20% of 450",
+    "options": [
+      "90",
+      "100",
+      "80",
+      "120"
+    ],
+    "answer": "90",
+    "keyword": "percentage"
+  },
+  {
+    "id": 32,
+    "question": "If CP=100, SP=130 profit%?",
+    "options": [
+      "30%",
+      "20%",
+      "10%",
+      "25%"
+    ],
+    "answer": "30%",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 33,
+    "question": "SI formula?",
+    "options": [
+      "PTR/100",
+      "P/T",
+      "PRT",
+      "P+R+T"
+    ],
+    "answer": "PTR/100",
+    "keyword": "simple-interest"
+  },
+  {
+    "id": 34,
+    "question": "Train speed formula",
+    "options": [
+      "D/T",
+      "T/D",
+      "D*T",
+      "None"
+    ],
+    "answer": "D/T",
+    "keyword": "speed-time-distance"
+  },
+  {
+    "id": 35,
+    "question": "Average formula",
+    "options": [
+      "Sum/Count",
+      "Sum*Count",
+      "Count/Sum",
+      "None"
+    ],
+    "answer": "Sum/Count",
+    "keyword": "average"
+  },
+  {
+    "id": 36,
+    "question": "Simple interest depends on?",
+    "options": [
+      "P,R,T",
+      "Volume",
+      "Area",
+      "Height"
+    ],
+    "answer": "P,R,T",
+    "keyword": "simple-interest"
+  },
+  {
+    "id": 37,
+    "question": "Cost price 400, gain 25%. SP?",
+    "options": [
+      "500",
+      "450",
+      "425",
+      "480"
+    ],
+    "answer": "500",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 38,
+    "question": "Loss = CP - SP true?",
+    "options": [
+      "Yes",
+      "No",
+      "Depends",
+      "None"
+    ],
+    "answer": "Yes",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 39,
+    "question": "Train passes platform requires?",
+    "options": [
+      "Train+Platform length",
+      "Train length only",
+      "Platform only",
+      "None"
+    ],
+    "answer": "Train+Platform length",
+    "keyword": "speed-time-distance"
+  },
+  {
+    "id": 40,
+    "question": "4 men = 8 women efficiency. 8 women = ? men",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "2"
+    ],
+    "answer": "4",
+    "keyword": "time-work"
+  },
+  {
+    "id": 41,
+    "question": "If a:b = 2:3 & b:c = 4:5, a:c = ?",
+    "options": [
+      "8:15",
+      "2:5",
+      "3:4",
+      "None"
+    ],
+    "answer": "8:15",
+    "keyword": "ratio"
+  },
+  {
+    "id": 42,
+    "question": "Income increases profit when?",
+    "options": [
+      "SP>CP",
+      "SP<CP",
+      "CP=SP",
+      "None"
+    ],
+    "answer": "SP>CP",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 43,
+    "question": "Selling an item below CP gives?",
+    "options": [
+      "Loss",
+      "Profit",
+      "Equal",
+      "None"
+    ],
+    "answer": "Loss",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 44,
+    "question": "Speed increases time?",
+    "options": [
+      "Decreases",
+      "Increases",
+      "Same",
+      "None"
+    ],
+    "answer": "Decreases",
+    "keyword": "speed-time-distance"
+  },
+  {
+    "id": 45,
+    "question": "Area of circle \u00cf\u20acr\u00c2\u00b2, r=7",
+    "options": [
+      "154",
+      "100",
+      "120",
+      "140"
+    ],
+    "answer": "154",
+    "keyword": "mensuration"
+  },
+  {
+    "id": 46,
+    "question": "Volume of cube a\u00c2\u00b3, a=3",
+    "options": [
+      "27",
+      "18",
+      "9",
+      "36"
+    ],
+    "answer": "27",
+    "keyword": "mensuration"
+  },
+  {
+    "id": 47,
+    "question": "CI is always >= SI?",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "None"
+    ],
+    "answer": "Yes",
+    "keyword": "compound-interest"
+  },
+  {
+    "id": 48,
+    "question": "LCM of 8,12,18",
+    "options": [
+      "72",
+      "60",
+      "36",
+      "48"
+    ],
+    "answer": "72",
+    "keyword": "lcm-hcf"
+  },
+  {
+    "id": 49,
+    "question": "HCF of 16,32,64",
+    "options": [
+      "16",
+      "32",
+      "8",
+      "64"
+    ],
+    "answer": "16",
+    "keyword": "lcm-hcf"
+  },
+  {
+    "id": 50,
+    "question": "Ratio 50:100",
+    "options": [
+      "1:2",
+      "2:1",
+      "5:10",
+      "None"
+    ],
+    "answer": "1:2",
+    "keyword": "ratio"
+  },
+  {
+    "id": 51,
+    "question": "100% of 50",
+    "options": [
+      "50",
+      "100",
+      "25",
+      "75"
+    ],
+    "answer": "50",
+    "keyword": "percentage"
+  },
+  {
+    "id": 52,
+    "question": "50% of 80",
+    "options": [
+      "40",
+      "50",
+      "30",
+      "60"
+    ],
+    "answer": "40",
+    "keyword": "percentage"
+  },
+  {
+    "id": 53,
+    "question": "Profit = 20%, CP=200. SP?",
+    "options": [
+      "240",
+      "220",
+      "260",
+      "300"
+    ],
+    "answer": "240",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 54,
+    "question": "Distance = Speed \u00c3\u2014 ___",
+    "options": [
+      "Time",
+      "Mass",
+      "Area",
+      "Height"
+    ],
+    "answer": "Time",
+    "keyword": "speed-time-distance"
+  },
+  {
+    "id": 55,
+    "question": "Time decreases when speed?",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Same",
+      "None"
+    ],
+    "answer": "Increases",
+    "keyword": "speed-time-distance"
+  },
+  {
+    "id": 56,
+    "question": "RR=Reinforced Ratio?",
+    "options": [
+      "No",
+      "Yes",
+      "Speed",
+      "Profit"
+    ],
+    "answer": "No",
+    "keyword": "misc"
+  },
+  {
+    "id": 57,
+    "question": "S.I =?",
+    "options": [
+      "PTR/100",
+      "P/T",
+      "P+T",
+      "TR/P"
+    ],
+    "answer": "PTR/100",
+    "keyword": "simple-interest"
+  },
+  {
+    "id": 58,
+    "question": "Compound interest grows?",
+    "options": [
+      "Yearly",
+      "Monthly",
+      "Daily",
+      "All"
+    ],
+    "answer": "All",
+    "keyword": "compound-interest"
+  },
+  {
+    "id": 59,
+    "question": "Prime after 11?",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "answer": "13",
+    "keyword": "number-system"
+  },
+  {
+    "id": 60,
+    "question": "Square of 15?",
+    "options": [
+      "225",
+      "215",
+      "230",
+      "200"
+    ],
+    "answer": "225",
+    "keyword": "number-system"
+  },
+  {
+    "id": 61,
+    "question": "Averages smooth?",
+    "options": [
+      "Variations",
+      "Speed",
+      "Profit",
+      "Loss"
+    ],
+    "answer": "Variations",
+    "keyword": "average"
+  },
+  {
+    "id": 62,
+    "question": "Profit increases when SP?",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Same",
+      "None"
+    ],
+    "answer": "Increases",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 63,
+    "question": "Loss increases when SP?",
+    "options": [
+      "Decreases",
+      "Increases",
+      "Same",
+      "None"
+    ],
+    "answer": "Decreases",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 64,
+    "question": "LCM gives?",
+    "options": [
+      "Common multiple",
+      "Common divisor",
+      "Only one",
+      "None"
+    ],
+    "answer": "Common multiple",
+    "keyword": "lcm-hcf"
+  },
+  {
+    "id": 65,
+    "question": "HCF gives?",
+    "options": [
+      "Highest common factor",
+      "Lowest multiple",
+      "Sum",
+      "None"
+    ],
+    "answer": "Highest common factor",
+    "keyword": "lcm-hcf"
+  },
+  {
+    "id": 66,
+    "question": "Train 100m, platform 50m, speed 10m/s, time?",
+    "options": [
+      "15s",
+      "10s",
+      "5s",
+      "8s"
+    ],
+    "answer": "15s",
+    "keyword": "speed-time-distance"
+  },
+  {
+    "id": 67,
+    "question": "Boat upstream slower due to?",
+    "options": [
+      "Against current",
+      "With current",
+      "Wind",
+      "None"
+    ],
+    "answer": "Against current",
+    "keyword": "boats-stream"
+  },
+  {
+    "id": 68,
+    "question": "Discount reduces?",
+    "options": [
+      "Selling price",
+      "CP",
+      "Marked price",
+      "Profit only"
+    ],
+    "answer": "Selling price",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 69,
+    "question": "Profit% = Profit/CP \u00c3\u2014 ___",
+    "options": [
+      "100",
+      "10",
+      "50",
+      "1"
+    ],
+    "answer": "100",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 70,
+    "question": "Loss% = Loss/CP \u00c3\u2014 ___",
+    "options": [
+      "100",
+      "10",
+      "1",
+      "50"
+    ],
+    "answer": "100",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 71,
+    "question": "100-25% of 200",
+    "options": [
+      "150",
+      "180",
+      "175",
+      "160"
+    ],
+    "answer": "150",
+    "keyword": "percentage"
+  },
+  {
+    "id": 72,
+    "question": "1 km = ? m",
+    "options": [
+      "1000",
+      "100",
+      "10",
+      "500"
+    ],
+    "answer": "1000",
+    "keyword": "conversion"
+  },
+  {
+    "id": 73,
+    "question": "1 m = ? cm",
+    "options": [
+      "100",
+      "10",
+      "1000",
+      "50"
+    ],
+    "answer": "100",
+    "keyword": "conversion"
+  },
+  {
+    "id": 74,
+    "question": "Profit occurs when SP?",
+    "options": [
+      "> CP",
+      "< CP",
+      "= CP",
+      "None"
+    ],
+    "answer": "> CP",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 75,
+    "question": "Loss occurs when SP?",
+    "options": [
+      "< CP",
+      "> CP",
+      "= CP",
+      "None"
+    ],
+    "answer": "< CP",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 76,
+    "question": "Ratio simple form 18:24",
+    "options": [
+      "3:4",
+      "4:3",
+      "2:3",
+      "3:2"
+    ],
+    "answer": "3:4",
+    "keyword": "ratio"
+  },
+  {
+    "id": 77,
+    "question": "Mean is type of?",
+    "options": [
+      "Average",
+      "Profit",
+      "Loss",
+      "None"
+    ],
+    "answer": "Average",
+    "keyword": "average"
+  },
+  {
+    "id": 78,
+    "question": "CI formula best defined as?",
+    "options": [
+      "Interest on interest",
+      "Flat interest",
+      "Zero interest",
+      "No relation"
+    ],
+    "answer": "Interest on interest",
+    "keyword": "compound-interest"
+  },
+  {
+    "id": 79,
+    "question": "Work done increases with?",
+    "options": [
+      "More workers",
+      "Less workers",
+      "None",
+      "Both"
+    ],
+    "answer": "More workers",
+    "keyword": "time-work"
+  },
+  {
+    "id": 80,
+    "question": "Train passing tree = length / speed?",
+    "options": [
+      "Yes",
+      "No",
+      "Sometimes",
+      "None"
+    ],
+    "answer": "Yes",
+    "keyword": "speed-time-distance"
+  },
+  {
+    "id": 81,
+    "question": "Simplify: 25% of 120",
+    "options": [
+      "30",
+      "25",
+      "35",
+      "40"
+    ],
+    "answer": "30",
+    "keyword": "percentage"
+  },
+  {
+    "id": 82,
+    "question": "Profit + Loss cannot be?",
+    "options": [
+      "Together",
+      "Separate",
+      "One only",
+      "None"
+    ],
+    "answer": "Together",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 83,
+    "question": "Time & speed relation",
+    "options": [
+      "Inverse",
+      "Direct",
+      "Equal",
+      "None"
+    ],
+    "answer": "Inverse",
+    "keyword": "speed-time-distance"
+  },
+  {
+    "id": 84,
+    "question": "S.I for 2 years double?",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "None"
+    ],
+    "answer": "Yes",
+    "keyword": "simple-interest"
+  },
+  {
+    "id": 85,
+    "question": "Probability range?",
+    "options": [
+      "0 to 1",
+      "1 to 2",
+      "2 to 3",
+      "3 to 4"
+    ],
+    "answer": "0 to 1",
+    "keyword": "probability"
+  },
+  {
+    "id": 86,
+    "question": "Square of 20?",
+    "options": [
+      "400",
+      "300",
+      "500",
+      "200"
+    ],
+    "answer": "400",
+    "keyword": "number-system"
+  },
+  {
+    "id": 87,
+    "question": "Cube of 5?",
+    "options": [
+      "125",
+      "25",
+      "15",
+      "75"
+    ],
+    "answer": "125",
+    "keyword": "number-system"
+  },
+  {
+    "id": 88,
+    "question": "Boat speed =?",
+    "options": [
+      "Stream + Man",
+      "Only man",
+      "Only stream",
+      "None"
+    ],
+    "answer": "Stream + Man",
+    "keyword": "boats-stream"
+  },
+  {
+    "id": 89,
+    "question": "Area rectangle l\u00c3\u2014b, 5\u00c3\u20144",
+    "options": [
+      "20",
+      "9",
+      "15",
+      "16"
+    ],
+    "answer": "20",
+    "keyword": "mensuration"
+  },
+  {
+    "id": 90,
+    "question": "Speed unit?",
+    "options": [
+      "km/hr",
+      "kg/m",
+      "sec",
+      "km"
+    ],
+    "answer": "km/hr",
+    "keyword": "speed-time-distance"
+  },
+  {
+    "id": 91,
+    "question": "Discount increases?",
+    "options": [
+      "Buyer benefit",
+      "Seller price",
+      "Loss always",
+      "None"
+    ],
+    "answer": "Buyer benefit",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 92,
+    "question": "Ratio comparison?",
+    "options": [
+      "Quantities",
+      "Length",
+      "Speed",
+      "Time"
+    ],
+    "answer": "Quantities",
+    "keyword": "ratio"
+  },
+  {
+    "id": 93,
+    "question": "CI >= SI for?",
+    "options": [
+      "Same P,R,T",
+      "Different P",
+      "Different R",
+      "None"
+    ],
+    "answer": "Same P,R,T",
+    "keyword": "compound-interest"
+  },
+  {
+    "id": 94,
+    "question": "Cube volume formula?",
+    "options": [
+      "a\u00c2\u00b3",
+      "a\u00c2\u00b2",
+      "2a",
+      "3a"
+    ],
+    "answer": "a\u00c2\u00b3",
+    "keyword": "mensuration"
+  },
+  {
+    "id": 95,
+    "question": "1 hr = ? seconds",
+    "options": [
+      "3600",
+      "60",
+      "600",
+      "300"
+    ],
+    "answer": "3600",
+    "keyword": "conversion"
+  },
+  {
+    "id": 96,
+    "question": "CP=300 SP=240",
+    "options": [
+      "Loss",
+      "Profit",
+      "None",
+      "Zero"
+    ],
+    "answer": "Loss",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 97,
+    "question": "CP=200 SP=260 profit%?",
+    "options": [
+      "30%",
+      "20%",
+      "10%",
+      "40%"
+    ],
+    "answer": "30%",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 98,
+    "question": "Pipe & cistern related to?",
+    "options": [
+      "Time and Work",
+      "Ratio",
+      "Average",
+      "CI"
+    ],
+    "answer": "Time and Work",
+    "keyword": "pipes-cistern"
+  },
+  {
+    "id": 99,
+    "question": "Fractions add when?",
+    "options": [
+      "Same denominator",
+      "Same numerator",
+      "Random",
+      "None"
+    ],
+    "answer": "Same denominator",
+    "keyword": "fraction"
+  },
+  {
+    "id": 100,
+    "question": "Area triangle 1/2bh, b=10,h=4",
+    "options": [
+      "20",
+      "40",
+      "10",
+      "15"
+    ],
+    "answer": "20",
+    "keyword": "mensuration"
+  },
+  {
+    "id": 101,
+    "question": "Prime number after 19",
+    "options": [
+      "23",
+      "21",
+      "25",
+      "27"
+    ],
+    "answer": "23",
+    "keyword": "number-system"
+  },
+  {
+    "id": 102,
+    "question": "81/9",
+    "options": [
+      "9",
+      "8",
+      "7",
+      "10"
+    ],
+    "answer": "9",
+    "keyword": "number-system"
+  },
+  {
+    "id": 103,
+    "question": "Ratio 6:9",
+    "options": [
+      "2:3",
+      "3:2",
+      "4:3",
+      "6:3"
+    ],
+    "answer": "2:3",
+    "keyword": "ratio"
+  },
+  {
+    "id": 104,
+    "question": "SI & CI difference largest when time?",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Same",
+      "None"
+    ],
+    "answer": "Increases",
+    "keyword": "compound-interest"
+  },
+  {
+    "id": 105,
+    "question": "Train speed highest when time?",
+    "options": [
+      "Lowest",
+      "Highest",
+      "Same",
+      "None"
+    ],
+    "answer": "Lowest",
+    "keyword": "speed-time-distance"
+  },
+  {
+    "id": 106,
+    "question": "39 divisible by 3?",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "None"
+    ],
+    "answer": "Yes",
+    "keyword": "number-system"
+  },
+  {
+    "id": 107,
+    "question": "Percent to fraction of 20%",
+    "options": [
+      "1/5",
+      "1/2",
+      "1/10",
+      "2/5"
+    ],
+    "answer": "1/5",
+    "keyword": "percentage"
+  },
+  {
+    "id": 108,
+    "question": "Profit if SP-CP positive?",
+    "options": [
+      "Yes",
+      "No",
+      "None",
+      "Zero"
+    ],
+    "answer": "Yes",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 109,
+    "question": "Loss if CP>SP?",
+    "options": [
+      "Yes",
+      "No",
+      "None",
+      "Zero"
+    ],
+    "answer": "Yes",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 110,
+    "question": "Cube of 4?",
+    "options": [
+      "64",
+      "16",
+      "8",
+      "32"
+    ],
+    "answer": "64",
+    "keyword": "number-system"
+  },
+  {
+    "id": 111,
+    "question": "LCM used for?",
+    "options": [
+      "Common multiple",
+      "Common factor",
+      "Area",
+      "Volume"
+    ],
+    "answer": "Common multiple",
+    "keyword": "lcm-hcf"
+  },
+  {
+    "id": 112,
+    "question": "HCF used for?",
+    "options": [
+      "Common factor",
+      "Common multiple",
+      "None",
+      "Zero"
+    ],
+    "answer": "Common factor",
+    "keyword": "lcm-hcf"
+  },
+  {
+    "id": 113,
+    "question": "1 litre = ? ml",
+    "options": [
+      "1000",
+      "100",
+      "10",
+      "500"
+    ],
+    "answer": "1000",
+    "keyword": "conversion"
+  },
+  {
+    "id": 114,
+    "question": "SI increases when time?",
+    "options": [
+      "Increases",
+      "Decreases",
+      "None",
+      "Stops"
+    ],
+    "answer": "Increases",
+    "keyword": "simple-interest"
+  },
+  {
+    "id": 115,
+    "question": "Average smooths?",
+    "options": [
+      "Data",
+      "Loss",
+      "Profit",
+      "None"
+    ],
+    "answer": "Data",
+    "keyword": "average"
+  },
+  {
+    "id": 116,
+    "question": "Ratio 15:45",
+    "options": [
+      "1:3",
+      "3:1",
+      "2:3",
+      "3:2"
+    ],
+    "answer": "1:3",
+    "keyword": "ratio"
+  },
+  {
+    "id": 117,
+    "question": "Speed & distance relation",
+    "options": [
+      "Direct",
+      "Inverse",
+      "None",
+      "Zero"
+    ],
+    "answer": "Direct",
+    "keyword": "speed-time-distance"
+  },
+  {
+    "id": 118,
+    "question": "Convert 2 km to m",
+    "options": [
+      "2000",
+      "20",
+      "200",
+      "20000"
+    ],
+    "answer": "2000",
+    "keyword": "conversion"
+  },
+  {
+    "id": 119,
+    "question": "Convert 5 m to cm",
+    "options": [
+      "500",
+      "50",
+      "5000",
+      "5"
+    ],
+    "answer": "500",
+    "keyword": "conversion"
+  },
+  {
+    "id": 120,
+    "question": "Convert 60 min to hr",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1",
+    "keyword": "conversion"
+  },
+  {
+    "id": 121,
+    "question": "CI > SI due to?",
+    "options": [
+      "Interest on interest",
+      "Loss",
+      "Profit",
+      "Time"
+    ],
+    "answer": "Interest on interest",
+    "keyword": "compound-interest"
+  },
+  {
+    "id": 122,
+    "question": "Profit when SP?",
+    "options": [
+      ">CP",
+      "<CP",
+      "=CP",
+      "None"
+    ],
+    "answer": ">CP",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 123,
+    "question": "Loss when SP?",
+    "options": [
+      "<CP",
+      ">CP",
+      "=CP",
+      "None"
+    ],
+    "answer": "<CP",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 124,
+    "question": "Square of 12?",
+    "options": [
+      "144",
+      "122",
+      "132",
+      "120"
+    ],
+    "answer": "144",
+    "keyword": "number-system"
+  },
+  {
+    "id": 125,
+    "question": "Prime number after 29",
+    "options": [
+      "31",
+      "33",
+      "35",
+      "37"
+    ],
+    "answer": "31",
+    "keyword": "number-system"
+  },
+  {
+    "id": 126,
+    "question": "Ratio used for?",
+    "options": [
+      "Comparison",
+      "Area",
+      "Volume",
+      "Speed"
+    ],
+    "answer": "Comparison",
+    "keyword": "ratio"
+  },
+  {
+    "id": 127,
+    "question": "Probability of odd in dice",
+    "options": [
+      "3/6",
+      "1/2",
+      "Both",
+      "None"
+    ],
+    "answer": "Both",
+    "keyword": "probability"
+  },
+  {
+    "id": 128,
+    "question": "CP 400 SP 500 profit?",
+    "options": [
+      "100",
+      "50",
+      "200",
+      "20"
+    ],
+    "answer": "100",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 129,
+    "question": "Time decreases speed?",
+    "options": [
+      "Increases",
+      "Decreases",
+      "None",
+      "Zero"
+    ],
+    "answer": "Increases",
+    "keyword": "speed-time-distance"
+  },
+  {
+    "id": 130,
+    "question": "SI increases when rate?",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Same",
+      "None"
+    ],
+    "answer": "Increases",
+    "keyword": "simple-interest"
+  },
+  {
+    "id": 131,
+    "question": "CI formula related to?",
+    "options": [
+      "Compound growth",
+      "Simple growth",
+      "Loss",
+      "Random"
+    ],
+    "answer": "Compound growth",
+    "keyword": "compound-interest"
+  },
+  {
+    "id": 132,
+    "question": "Ratio simplified 100:20",
+    "options": [
+      "5:1",
+      "1:5",
+      "4:1",
+      "2:1"
+    ],
+    "answer": "5:1",
+    "keyword": "ratio"
+  },
+  {
+    "id": 133,
+    "question": "Average of 10 & 20",
+    "options": [
+      "15",
+      "10",
+      "20",
+      "30"
+    ],
+    "answer": "15",
+    "keyword": "average"
+  },
+  {
+    "id": 134,
+    "question": "Distance decreases time?",
+    "options": [
+      "Decreases",
+      "Increases",
+      "None",
+      "Zero"
+    ],
+    "answer": "Decreases",
+    "keyword": "speed-time-distance"
+  },
+  {
+    "id": 135,
+    "question": "Prime after 41",
+    "options": [
+      "43",
+      "45",
+      "49",
+      "51"
+    ],
+    "answer": "43",
+    "keyword": "number-system"
+  },
+  {
+    "id": 136,
+    "question": "Square 25",
+    "options": [
+      "625",
+      "525",
+      "425",
+      "725"
+    ],
+    "answer": "625",
+    "keyword": "number-system"
+  },
+  {
+    "id": 137,
+    "question": "Cube 3",
+    "options": [
+      "27",
+      "9",
+      "6",
+      "12"
+    ],
+    "answer": "27",
+    "keyword": "number-system"
+  },
+  {
+    "id": 138,
+    "question": "Profit high when CP?",
+    "options": [
+      "Low",
+      "High",
+      "None",
+      "Zero"
+    ],
+    "answer": "Low",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 139,
+    "question": "Convert 180 min to hr",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "1"
+    ],
+    "answer": "3",
+    "keyword": "conversion"
+  },
+  {
+    "id": 140,
+    "question": "Time lowest speed?",
+    "options": [
+      "Highest",
+      "Lowest",
+      "None",
+      "Zero"
+    ],
+    "answer": "Lowest",
+    "keyword": "speed-time-distance"
+  },
+  {
+    "id": 141,
+    "question": "Square 14",
+    "options": [
+      "196",
+      "200",
+      "180",
+      "150"
+    ],
+    "answer": "196",
+    "keyword": "number-system"
+  },
+  {
+    "id": 142,
+    "question": "Cube 6",
+    "options": [
+      "216",
+      "120",
+      "100",
+      "300"
+    ],
+    "answer": "216",
+    "keyword": "number-system"
+  },
+  {
+    "id": 143,
+    "question": "Profit if SP=700 CP=500",
+    "options": [
+      "200",
+      "100",
+      "300",
+      "250"
+    ],
+    "answer": "200",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 144,
+    "question": "Loss if SP=300 CP=500",
+    "options": [
+      "200",
+      "100",
+      "300",
+      "150"
+    ],
+    "answer": "200",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 145,
+    "question": "CI depends on?",
+    "options": [
+      "P,R,T compounded",
+      "Only P",
+      "Only T",
+      "Only R"
+    ],
+    "answer": "P,R,T compounded",
+    "keyword": "compound-interest"
+  },
+  {
+    "id": 146,
+    "question": "Average used for?",
+    "options": [
+      "Central value",
+      "Lowest",
+      "Highest",
+      "None"
+    ],
+    "answer": "Central value",
+    "keyword": "average"
+  },
+  {
+    "id": 147,
+    "question": "Ratio 8:12",
+    "options": [
+      "2:3",
+      "3:2",
+      "1:4",
+      "4:1"
+    ],
+    "answer": "2:3",
+    "keyword": "ratio"
+  },
+  {
+    "id": 148,
+    "question": "60% of 80",
+    "options": [
+      "48",
+      "50",
+      "55",
+      "40"
+    ],
+    "answer": "48",
+    "keyword": "percentage"
+  },
+  {
+    "id": 149,
+    "question": "Prime after 53",
+    "options": [
+      "59",
+      "57",
+      "55",
+      "63"
+    ],
+    "answer": "59",
+    "keyword": "number-system"
+  },
+  {
+    "id": 150,
+    "question": "Profit formula?",
+    "options": [
+      "SP - CP",
+      "CP - SP",
+      "SP*CP",
+      "None"
+    ],
+    "answer": "SP - CP",
+    "keyword": "profit-loss"
+  },
+  {
+    "id": 151,
+    "question": "1+1",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "answer": "B",
+    "keyword": ""
+  }
+]

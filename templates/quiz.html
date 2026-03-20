@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<h2>{{domain|upper}} Quiz</h2>
+
+<form action="/submit" method="POST" class="quiz-form">
+{% csrf_token %}
+
+{% for q in questions %}
+<div class="question-card glass">
+  <p><b>{{ forloop.counter }}. {{ q.question }}</b></p>
+  {% for opt in q.options %}
+  <label><input type="radio" name="{{q.id}}" value="{{opt}}"> {{opt}}</label><br>
+  {% endfor %}
+</div>
+{% endfor %}
+
+<button class="btn submit-btn">Submit Quiz</button>
+</form>
+
+{% endblock %}

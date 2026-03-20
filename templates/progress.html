@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<h2>📊 My Progress Report</h2>
+
+{% if data %}
+<table class="glass" border="1" cellpadding="10" cellspacing="0" style="width:90%;margin:auto;">
+<tr style="background:#91bcd3;">
+  <th>Domain</th>
+  <th>Score</th>
+  <th>Total</th>
+  <th>Date</th>
+</tr>
+
+{% for d,s,t,dt in data %}
+<tr>
+  <td>{{d}}</td>
+  <td>{{s}}</td>
+  <td>{{t}}</td>
+  <td>{{dt}}</td>
+</tr>
+{% endfor %}
+</table>
+
+{% else %}
+<p style="text-align:center;color:#1b4332;">No attempts yet. Start a quiz to track history 🚀</p>
+{% endif %}
+
+<a href="/" class="btn" style="display:block;width:200px;margin:20px auto;text-align:center;">🏠 Back to Dashboard</a>
+
+{% endblock %}

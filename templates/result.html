@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="result-card glass">
+  <h2>Score: {{score}}</h2>
+
+  <h3>Improvement Tips</h3>
+  <ul>
+  {% for t in tips %}
+    <li>{{t}}</li>
+  {% empty %}
+    <li>🔥 Excellent! No major improvements needed.</li>
+  {% endfor %}
+  </ul>
+
+  <a class="btn" href="/domain">Practice More</a>
+</div>
+
+{% endblock %}
+

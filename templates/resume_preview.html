@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<h2>Resume Preview</h2>
+
+<div class="glass resume-preview">
+  {% include 'resume_templates/simple.html' %}
+</div>
+
+<a class="btn" href="/download-pdf">Download PDF</a>
+
+{% endblock %}

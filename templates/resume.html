@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<h2>Resume Builder</h2>
+
+<form method="POST" enctype="multipart/form-data" class="glass resume-form">
+  {% csrf_token %}
+  <input type="text" name="name" placeholder="Full Name" required>
+  <input type="email" name="email" placeholder="Email">
+  <input type="text" name="linkedin" placeholder="LinkedIn URL">
+  <input type="text" name="github" placeholder="GitHub URL">
+  <input type="text" name="skills" placeholder="Skills (comma separated)">
+  <input type="text" name="projects" placeholder="Projects (comma separated)">
+  <textarea name="education" placeholder="Education"></textarea>
+  <textarea name="experience" placeholder="Experience"></textarea>
+
+  <label>Profile Photo:</label>
+  <input type="file" name="photo" accept="image/*">
+
+  <label>Choose Template:</label>
+  <select name="template">
+    <option value="canva_simple">Canva Simple</option>
+    <option value="glass">Glass Mint</option>
+    <option value="modern">Modern</option>
+    <option value="simple">Minimal</option>
+  </select>
+
+  <button class="btn">Preview</button>
+</form>
+
+{% endblock %}

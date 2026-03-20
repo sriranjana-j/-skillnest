@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<h2 class="center-title">Select Your Domain</h2>
+
+<div class="domain-container">
+  {% for d in domains %}
+    <button class="domain-btn" onclick="selectDomain('{{d}}')">{{ d|upper }}</button>
+  {% endfor %}
+</div>
+
+
+<h3 class="center-title">Select Question Count</h3>
+<p id="selectedDomainLabel" class="selected-domain-note" style="display:none;"></p>
+<div class="count-container count-hidden" id="countSection">
+  {% for c in counts %}
+    <button class="count-btn" onclick="startQuiz('{{c}}')">{{c}}</button>
+  {% endfor %}
+</div>
+
+<script>
+let selectedDomain = "";
+function selectDomain(d){
+  selectedDomain = d;
+  const allDomainButtons = document.querySelectorAll(".domain-btn");
+  allDomainButtons.forEach((btn) => btn.classList.remove("selected"));
+
+  const selectedButton = Array.from(allDomainButtons).find(
+    (btn) => btn.textContent.trim().toLowerCase() === d.toLowerCase()
+  );
+  if (selectedButton) {
+    selectedButton.classList.add("selected");
+  }
+
+  const countSection = document.getElementById("countSection");
+  countSection.classList.remove("count-visible");
+  void countSection.offsetWidth;
+  countSection.classList.remove("count-hidden");
+  countSection.classList.add("count-visible");
+
+  const selectedDomainLabel = document.getElementById("selectedDomainLabel");
+  selectedDomainLabel.style.display = "block";
+  selectedDomainLabel.textContent = `Selected domain: ${d.toUpperCase()}`;
+}
+
+function startQuiz(c){
+  if(selectedDomain){
+    window.location.href = `/quiz/${selectedDomain}/${c}`;
+  }
+}
+</script>
+
+{% endblock %}

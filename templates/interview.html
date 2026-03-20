@@ -1,0 +1,78 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<h2>🧑‍💼 AI Interview Chatbot</h2>
+
+<div class="ai-status-wrap">
+  <span class="ai-badge">AI</span>
+  <span class="ai-status {% if ai_status == 'GROQ' %}ai-status-groq{% elif ai_status == 'Local AI' %}ai-status-local{% elif ai_status == 'Fallback' %}ai-status-fallback{% else %}ai-status-waiting{% endif %}">
+    {{ ai_status }}
+  </span>
+</div>
+
+<div class="glass" style="margin-top:10px;">
+  <p style="margin:0 0 8px;"><b>Question {{question_number}} / {{question_total}}</b></p>
+  <div style="height:10px;background:#dbe8ff;border-radius:999px;overflow:hidden;">
+    <div style="height:100%;width:{{progress_pct}}%;background:linear-gradient(120deg,#2f66dc,#5f8ffc);"></div>
+  </div>
+</div>
+
+<div class="bot-tip" id="botTips">
+💡 STAR Format helps: Situation • Task • Action • Result
+</div>
+
+<script>
+const tips = [
+ "💡 Use STAR → Situation • Task • Action • Result",
+ "🧩 Mention tools, tech stack & your contribution",
+ "📌 Add numbers: % improvement, time saved, results",
+ "🚀 Show ownership: What YOU did, not the team",
+ "🎯 Focus on impact, not just activity"
+];
+
+let i = 0;
+setInterval(()=>{
+  document.getElementById("botTips").innerText = tips[i];
+  i = (i + 1) % tips.length;
+}, 3500);
+</script>
+
+
+<div class="chat-box glass">
+{% for sender, msg in chat %}
+  <p><b>{{sender}}:</b> {{msg}}</p>
+{% endfor %}
+</div>
+
+<p><b>Next Question:</b> {{question}}</p>
+<p>⏳ Time Left: <span id="timer">{{timer}}</span> sec</p>
+
+<form method="POST">
+  {% csrf_token %}
+  <input type="hidden" id="timedOutFlag" name="timed_out" value="0">
+  <input type="hidden" id="interviewAction" name="interview_action" value="send">
+  <textarea name="answer" required placeholder="Type your answer..." autofocus></textarea>
+  <button class="btn" type="submit" onclick="setInterviewAction('send')">Send</button>
+  <button class="btn" type="submit" formnovalidate onclick="setInterviewAction('restart')">🔄 Start Again</button>
+  <button class="btn logout" type="submit" formnovalidate onclick="setInterviewAction('stop')">🛑 Stop Interview</button>
+</form>
+
+<script>
+function setInterviewAction(action){
+  document.getElementById("interviewAction").value = action;
+}
+
+let t = {{timer}};
+let x = setInterval(()=>{
+  document.getElementById("timer").innerText = t;
+  t--;
+  if(t <= 0){
+    clearInterval(x);
+    setInterviewAction("send");
+    document.getElementById("timedOutFlag").value = "1";
+    document.forms[0].submit();
+  }
+}, 1000)
+</script>
+
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="auth-shell">
+  <section class="auth-hero glass">
+    <h1>Career Aptitude Pro</h1>
+    <p>Practice domain quizzes, track your progress, and prepare smarter for interviews.</p>
+    <div class="auth-points">
+      <span>Personalized quiz practice</span>
+      <span>Progress analytics</span>
+      <span>AI interview preparation</span>
+    </div>
+  </section>
+
+  <section class="auth-card glass">
+    <h2>Welcome Back</h2>
+    <p class="auth-subtitle">Login to continue or create a new account.</p>
+
+    <div class="auth-forms-grid">
+      <form action="/login" method="POST" class="auth-form">
+        {% csrf_token %}
+        <h3>Login</h3>
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button class="btn" type="submit">Login</button>
+      </form>
+
+      <form action="/register" method="POST" class="auth-form">
+        {% csrf_token %}
+        <h3>Create Account</h3>
+        <input type="text" name="username" placeholder="New Username" required>
+        <input type="password" name="password" placeholder="New Password" required>
+        <button class="btn alt" type="submit">Register</button>
+      </form>
+    </div>
+  </section>
+</div>
+
+{% endblock %}

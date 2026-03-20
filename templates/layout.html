@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="data:,">
+<title>Career Aptitude Pro</title>
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'style.css' %}">
+{% if pdf %}
+<link rel="stylesheet" href="{% static 'style_pdf.css' %}">
+{% endif %}
+</head>
+
+<body>
+
+<nav class="navbar">
+  <div class="nav-title">Career Aptitude Pro</div>
+  {% if request.user.is_authenticated %}
+  <div class="nav-links">
+    <a href="/dashboard">Dashboard</a>
+    <a href="/domain">Practice</a>
+    <a href="/progress">Progress</a>
+    <a href="/resume">Resume</a>
+    <a href="/logout" class="logout-btn">Logout</a>
+  </div>
+  {% endif %}
+</nav>
+
+<main class="container">
+{% if messages %}
+  <div class="glass">
+    {% for message in messages %}
+      <p>{{ message }}</p>
+    {% endfor %}
+  </div>
+{% endif %}
+{% block content %}{% endblock %}
+</main>
+
+<script src="{% static 'script.js' %}"></script>
+</body>
+</html>

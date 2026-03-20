@@ -1,0 +1,14 @@
+<h2>Interview Report - {{user}}</h2>
+<h3>Final Score: {{score}}</h3>
+
+<h3>Chat Summary:</h3>
+{% for s,m in chat %}
+<p><b>{{s}}:</b> {{m}}</p>
+{% endfor %}
+
+<h3>Recommended Improvements:</h3>
+<ul>
+{% for i in improvements %}
+<li>{{i}}</li>
+{% endfor %}
+</ul>

@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="dashboard-card glass">
+  <h2>Welcome, {{user}} 👋</h2>
+
+  <div class="glass stats-box">
+    <p>📌 Attempts: {{stats.total}}</p>
+    <p>🏆 Best Score: {{stats.best}}</p>
+    <p>📈 Average: {{stats.avg}}</p>
+  </div>
+
+  <a href="/domain" class="btn">🧠 Practice Questions</a>
+  <a href="/progress" class="btn">📊 My Progress</a>
+  <a href="/resume" class="btn">📄 Resume Builder</a>
+  <a href="/logout" class="btn logout">🚪 Logout</a>
+</div>
+
+<a href="/interview">
+  <div class="chat-bubble">
+    <span class="chat-icon">🗨️</span>
+    Interview Chatbot
+  </div>
+</a>
+
+{% endblock %}
